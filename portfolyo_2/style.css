@@ -1,0 +1,22 @@
+.navbar{
+   background-color: white !important;
+   
+}
+
+.card-img-top{
+   width: 100%;
+   height: 16vh;
+   object-fit: cover;
+}
+
+
+
+@media  (min-width: 768px){
+
+   .card-img-top{
+      height: 32vh;
+   }
+}
+   
+
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kerem Demir's Portfolio</title>
+  </head>
+
+  <body class="h-100 d-flex flex-column">
+    <nav
+      class="navbar navbar-expand-md border-bottom bg-dark user-select-none sticky-top"
+    >
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">
+          <i class="fa-brands fa-uncharted"></i>
+          SOFTWARE
+        </a>
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a href="dinamik_tablo.html" class="nav-link">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a href="iletisim.html" class="nav-link">İletişim</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Üye Ol</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              type="search"
+              class="form-control me-1"
+              placeholder="Search"
+            />
+            <button class="btn btn-dark" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container d-flex flex-column ">
+        <div class="row">
+          <div class="col-6 mb-2 mx-auto">
+            <h1>
+              <i class="fa-brands fa-uncharted"></i>
+              SOFTWARE
+            </h1>
+          </div>
+        </div>
+        <form action="" class="row g-3 form border border-1 border-dark rounded">
+          <div class="col-8 mx-auto">
+            <label for="name" class="form-label">İsim</label>
+            <input type="text" class="form-control" placeholder="isim" />
+          </div>
+          <div class="col-8 mx-auto">
+            <label for="surname" class="form-label">Soyisim</label>
+            <input type="text" class="form-control" placeholder="Soyisim" />
+          </div>
+
+          <div class="col-8 mx-auto">
+            <label for="email" class="form-label">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="someone@example.com"
+            />
+          </div>
+          <div class="col-8 mx-auto">
+            <label for="password" class="form-label">Şifre</label>
+            <input type="password" class="form-control" />
+          </div>
+          <div class="col-8 mx-auto">
+            <label for="re-password" class="form-label">Şifre Tekrar</label>
+            <input type="password" class="form-control" />
+          </div>
+          <div class="col-8 mb-3 mx-auto">
+            <div class="btn btn-outline-dark w-100"> Kayıt Ol</div>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <div class="footer bg-primary p-4 text-center mt-auto">
+      All Rights Reserved @2030
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
